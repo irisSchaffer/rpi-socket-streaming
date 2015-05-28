@@ -16,13 +16,13 @@ Now change into the newly created directory and install all dependencies:
 
 You might have to change line 2 and 3 of the application's configuration `config.json` and replace the ip-address restriction and the port socket-io is connecting over by the ones you want to use:
 
-    "port": [socket-io port], // e.g. 9999
+    "port": [app port], // e.g. 9999
     "client-host": "[your pc's ip]", // e.g. 192.168.0.*
 
 Don't forget to also change the socket connection in `client.html` (line 54 and 56) accordingly:
 
-    <script src="http://[pi's ip]:[socket-io port]/socket.io/socket.io.js"></script>
-    var socket = io.connect('http://[pi's ip]:[socket-io port]');
+    <script src="http://[pi's ip]:[app port]/socket.io/socket.io.js"></script>
+    var socket = io.connect('http://[pi's ip]:[app port]');
   
 To start the application, you can now run `npm start` on the raspberry pi, open `client.html` locally in your browser and click the `Start Stream` button. *Happy Streaming!*
 
