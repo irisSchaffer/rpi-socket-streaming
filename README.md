@@ -24,6 +24,8 @@ Don't forget to also change the socket connection in `client.html` (line 54 and 
     <script src="http://[pi's ip]:[app port]/socket.io/socket.io.js"></script>
     var socket = io.connect('http://[pi's ip]:[app port]');
   
-To start the application, you can now run `npm start` on the raspberry pi, open `client.html` locally in your browser and click the `Start Stream` button. *Happy Streaming!*
+To start the application, you can now run `node index.js` on the raspberry pi, open `client.html` locally in your browser and click the `Start Stream` button.
+
+*Happy Streaming!*
 
 
