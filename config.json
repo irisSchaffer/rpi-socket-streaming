@@ -1,0 +1,11 @@
+{
+  "port": 9999,
+  "client-host": "192.168.0.*",
+  "client-port": 80,
+  "capture-rate": 200,
+  "capture-time": 100,
+  "image-path": "stream",
+  "image-name": "image.jpg",
+  "image-width": 640,
+  "image-height": 480
+}
