@@ -2,7 +2,7 @@
 Code for my *[Taking photos with raspberry pi + socket.io](https://irisschaffer.com/taking-photos-with-raspberry-pi--socket.io)* tutorial.
 
 This code makes it possible to stream photos taken on a raspberry pi in regular intervals to a remote server, using nodejs, socket-io and data-uris.
-For more information about this repository and implementation details, please refer to the aforementioned [tutorial]( http://irisschaffer.com/taking-photos-with-raspberry-pi-socket-io/) and feel free to raise issues, or contact me via e-mail.
+For more information about this repository and implementation details, please refer to the aforementioned [tutorial](https://irisschaffer.com/taking-photos-with-raspberry-pi--socket.io) and feel free to raise issues, or contact me via e-mail.
 
 ## How can I run the application?
 If you want to use this code, and have nodejs set up on your raspberry pi, simply place the `client.html` somewhere on your pc and ssh into your pi. Next, clone this repo:
